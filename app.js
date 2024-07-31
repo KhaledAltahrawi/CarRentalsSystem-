@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/api", require("./routes/userRoutes"));
 // root
 app.get("/", (req, res) => {
- res.json({ message: "Welcome to the rental car application." });
+ res.json({ message: "Welcome to the car rental application." });
 });
 const PORT = process.env.PORT || 5000;
 

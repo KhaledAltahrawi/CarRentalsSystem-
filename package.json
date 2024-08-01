@@ -1,7 +1,7 @@
 {
-  "name": "car-rental-system",
+  "name": "car-rental-system-backend",
   "version": "1.0.0",
-  "description": "A full stack MERN car rental system",
+  "description": "Car Rental System Backend",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -12,14 +12,14 @@
     "build-all": "npm run install-all && npm run client-build"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.9",
     "bcryptjs": "^2.4.3",
-    "dotenv": "^8.2.0",
-    "jsonwebtoken": "^8.5.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.15"
   }
 }

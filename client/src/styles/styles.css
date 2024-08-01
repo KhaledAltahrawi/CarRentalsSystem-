@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Add your CSS styles here */
 body {
     font-family: Arial, sans-serif;
@@ -37,4 +38,45 @@ body {
     color: white;
     text-decoration: none;
   }
+=======
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+  }
+>>>>>>> c342c0499b682941d4d2bb302fd5f6920adce68e
   

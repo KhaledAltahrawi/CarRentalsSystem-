@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const userRoutes = require('./routes/userRoutes');
-const carRoutes = require('./routes/carRoutes');
+const userRoutes = require('./routes/userRoutes.js');
+const carRoutes = require('./routes/carRoutes.js');
 const cors = require('cors');
 const path = require('path');
 

@@ -22,7 +22,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 //import ArrowForward from '@material-ui/core/ArrowForward'
 import ArrowForward from "@material-ui/icons/ArrowForward";
-import CarRentalImg from "./../assets/images/CarRentalImg.jpg";
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -62,6 +61,8 @@ export default function Users() {
       abortController.abort();
     };
   }, []);
+
+  
 
   const classes = useStyles();
   return (
